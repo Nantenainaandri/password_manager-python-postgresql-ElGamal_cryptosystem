@@ -1,4 +1,3 @@
-""""
 
     - ALGO to encrypt and decrypt the master password
 
@@ -8,24 +7,9 @@
     - DRY: Don't Repeat Yourself
 
 
-"""
 ################################################################################################################
 
-"""
-TO VERIFY AND TEST:
-    - check the strength function
-    - the algorithm to encrypt and decrypt the password in the database
-    - return commit
-    - only read permission on the file json  
 
- store in other table the keys if it makes a problem
-    
-"""
-
-
-
-
-######################################################################################################
 POSTGRESQL commands:
 
 # login as a postgres user
@@ -186,10 +170,10 @@ PASSWORDS MANAGER: local, python + postgresql
 -
 
 Farther project: add blockchain, cloud,
-- known the websites and put automaticly the username and password there
 - manual syncronize in two things (scan qr code, wifi, hostpot)
 - can generate a password when creating some account for a domaine name and show and copy the password to the clipboard
 - can have more users who have a database for each others or same database but different table not having access for the others
+- known the websites and put automaticly the username and password there (need authority to overplay to the browser)
 
 
 
@@ -204,8 +188,9 @@ Farther project: add blockchain, cloud,
 ===================================================================================================
             MOTIVATION
 
-It is a fantastic project because it bridges the gap between basic programming and real-world software engineering, specifically touching on database management and cryptography—two pillars of modern security.
+It is a fantastic project because it bridges the gap between basic programming and real-world software engineering, specifically touching on database management and cryptography, two pillars of modern security.
 
 
 
 ===================================================================================================
+
