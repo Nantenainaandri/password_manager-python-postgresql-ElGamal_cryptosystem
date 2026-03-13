@@ -234,7 +234,7 @@ def main():
             x, y = elgamal_keygen(p, g)
 
             keys = str(x)+ " " + str(y)
-            print(f"Keys: {keys}")
+            
             
             # store the hashed master password in the database with the id 0, the domain name "Master_Password" and the username "MASTER" and "0" for psswd_2
             cur.execute(
