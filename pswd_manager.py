@@ -235,7 +235,6 @@ def main():
 
             keys = str(x)+ " " + str(y)
             
-            
             # store the hashed master password in the database with the id 0, the domain name "Master_Password" and the username "MASTER" and "0" for psswd_2
             cur.execute(
                 "INSERT INTO my_passwd_mngr (id, domain_name, username, password_hashed_1, password_hashed_2) VALUES (%s, %s, %s, %s, %s)",
