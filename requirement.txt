@@ -1,0 +1,6 @@
+psycopg2
+zxcvbn
+prettytable
+pyperclip
+bcrypt
+sympy
