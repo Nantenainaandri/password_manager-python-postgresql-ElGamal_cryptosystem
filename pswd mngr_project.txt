@@ -98,9 +98,10 @@ postgresql://postgres:password@localhost:5432/dbname
 
 
 
+ #######################################################################################################
 
 
-    """
+
     Encrypt a message m under the ElGamal public key (p, g, y).
 
     Parameters
@@ -122,7 +123,6 @@ postgresql://postgres:password@localhost:5432/dbname
             c2 = m * y^k mod p
         where k is a fresh, uniform ephemeral in [1, p-2].
 
-    """
 
  #######################################################################################################
 
@@ -178,20 +178,18 @@ def db_connection():
 
 ################################################################################################################
 
-Farther project: add blockchain, cloud,
-- known the websites and put automaticly the username and password there
-- manual syncronize in two things (scan qr code, wifi, hostpot)
-- can generate a password when creating some account for a domaine name and show and copy the password to the clipboard
-- can have more users who have a database for each others or same database but different table not having access for the others
-
-
-
 PASSWORDS MANAGER: local, python + postgresql
 - hash the passwords with length < 12 characters
 - can show the list of site or apk have password
 - URL or domain name, use regex to do that
 - hash with a strong crypto function
 -
+
+Farther project: add blockchain, cloud,
+- known the websites and put automaticly the username and password there
+- manual syncronize in two things (scan qr code, wifi, hostpot)
+- can generate a password when creating some account for a domaine name and show and copy the password to the clipboard
+- can have more users who have a database for each others or same database but different table not having access for the others
 
 
 
@@ -209,46 +207,5 @@ PASSWORDS MANAGER: local, python + postgresql
 It is a fantastic project because it bridges the gap between basic programming and real-world software engineering, specifically touching on database management and cryptography—two pillars of modern security.
 
 
-
-===================================================================================================
-
-
-
-
-# Password Manager
-
-## Description
-Password Manager is a simple and secure application to store and manage your passwords. It uses AES encryption to ensure that your passwords are stored securely. This project is developed using Java and provides a console-based interface for adding and retrieving passwords.
-
-## Features
-- Add new passwords for different sites.
-- Retrieve stored passwords.
-- Secure storage using AES encryption.
-
-## Technologies Used
-- Java
-- AES Encryption
-
-## Setup Instructions
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/lakshay1341/PasswordManager.git
-   cd PasswordManager
-2. **Compile the Java files:**
-   javac PasswordManager.java
-3. **Run the application:**
-   java PasswordManager
-
-### Usage
-
-**Add Password:**
-1. Choose the “Add Password” option.
-2. Enter the site name and password.
-3. The password will be encrypted and stored securely.
-
-**Retrieve Password:**
-1. Choose the “Retrieve Password” option.
-2. Enter the site name.
-3. The stored password will be decrypted and displayed.
 
 ===================================================================================================
